@@ -4,6 +4,10 @@ Q1
 
 chuyang Li
 260744689
+
+Sincer there are four function calls per step in rk4_step, there are 12 function 
+calls at each step in rk4_stepd. The modified stepper rk4_stepd is more accurate by 
+roughly 400 times, as illustrated by the example in this problem.
 """
 import numpy as np
 from matplotlib import pyplot as plt
