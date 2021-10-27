@@ -17,7 +17,7 @@ def conv_safe(f, g):
         arr2[j] = g[j]
     arr1 = arr1/arr1.sum()
     arr2 = arr2/arr2.sum()
-    h = np.fft.irfft(np.fft.rfft(arr1)*np.fft.rfft(arr2),len(arr1))
+    h = np.fft.irfft(np.fft.rfft(arr1)*np.fft.rfft(arr2),length)
     return h
 
 x1 = np.linspace(-15,15,3001)
