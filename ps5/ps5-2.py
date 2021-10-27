@@ -1,6 +1,6 @@
 """
 PHYS-512 PS5
-Q1
+Q2
 Chuyang Li
 260744689
 """
