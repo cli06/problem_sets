@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
 
 def conv_shift(array, shift):
     f = array
-    g = 0*x
+    g = 0*f
     g[int(round(shift))] = 1
     f = f/f.sum()
     g = g/g.sum()
